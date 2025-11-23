@@ -22,3 +22,13 @@ If you have downloaded the source code files:
     *   Open `http://localhost:8000` in your browser.
 3.  If you have Node.js:
     *   Run `npx serve .`
+
+## How to produce a one-click Windows installer (EXE)
+
+If you prefer to ship a single EXE that starts the app locally after extracting a zip:
+
+1. Install dependencies (needs internet): `npm install`
+2. Build the web app: `npm run build`
+3. Package the EXE server: `npm run build:installer`
+4. Zip the entire `dist` folder (including the `installer` subfolder). The generated EXE will be in `dist/installer/`.
+5. On Windows, unzip the archive and double-click the EXE. It will start a local server on port **4173** and open the app in the default browser.
