@@ -1,7 +1,0 @@
-{
-  "name": "EchoFlow Shadowing",
-  "description": "An AI-powered English shadowing trainer. Upload documents, generate scripts, and practice speaking with real-time AI feedback.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}
